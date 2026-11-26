@@ -1,0 +1,74 @@
+Package: vcpkg-cmake-config
+Version: 2026-07-21
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 142d511485614455d4f25da0b6fab7619db666a751bf062ae85f3a948053dd4c
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2025-08-07
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e1cab514c9525b47d702406588e677a8fd7bfa8de34627c9531074e71fb90b1b
+Status: install ok installed
+
+Package: egl-registry
+Version: 2025-05-27
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 2fdfbf5e2899f7560c53ed24abcefa704803dc3a81427f027f7fa143f10fef2b
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2026-08-03
+Depends: egl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 708a99dc98e61f8d21d564d74e132164922064964674727a1b7121a0e23fcda2
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: glad
+Version: 0.1.36
+Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f9b0f596c3942638f83fd174bc715c54483c545fd49d66f91c8d0efa38438c8d
+Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+Default-Features: loader
+Status: install ok installed
+
+Package: glad
+Feature: loader
+Architecture: x64-windows
+Multi-Arch: same
+Description: Generate loader logic.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.5.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 25d8dc95de2838fba3638fc806d50649df14ceea3d32744e13f7c386c28e4a39
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a0a942760af891d6b4801dd228556e58d9cd0d1754c9c6adf4bef2b1052e878c
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: stb
+Version: 2026-08-02
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e8bc669d7cd71b8fc1fff3e59e55e309609e84a20520399e92c3f8cc0894153a
+Description: public domain header-only libraries
+Status: install ok installed
+

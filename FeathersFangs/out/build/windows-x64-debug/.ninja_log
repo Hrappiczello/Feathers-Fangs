@@ -1,0 +1,16 @@
+# ninja log v5
+24	72	0	C:/Users/danie/Desktop/FeathersFangs_Etap4_Sandbox/out/build/windows-x64-debug/CMakeFiles/cmake.verify_globs	748a5d0f5aab2d31
+126	1772	8168165877788891	CMakeFiles/FeathersFangs.dir/src/Texture.cpp.obj	a803aa504f526f5d
+98	1746	8168165877286916	CMakeFiles/FeathersFangs.dir/src/Projectile.cpp.obj	eb0b8ac6ae50f15b
+50	1750	8168165877547366	CMakeFiles/FeathersFangs.dir/src/Bird.cpp.obj	19af3d761c914d6e
+79	1744	8168165877271783	CMakeFiles/FeathersFangs.dir/src/GameObject.cpp.obj	3778ea5f87cfa4da
+89	1747	8168165877374114	CMakeFiles/FeathersFangs.dir/src/Grid.cpp.obj	6c40f03fb78ee9d2
+118	1752	8168165877587393	CMakeFiles/FeathersFangs.dir/src/SpriteRenderer.cpp.obj	ec6464aedf872a7c
+62	1748	8168165877409203	CMakeFiles/FeathersFangs.dir/src/Fox.cpp.obj	ea49745b6757aaae
+108	1823	8168165878296063	CMakeFiles/FeathersFangs.dir/src/Shader.cpp.obj	a3eee8bed7e7cf1f
+134	1824	8168165878296063	CMakeFiles/FeathersFangs.dir/src/main.cpp.obj	e5ae9f40710fe516
+76	2384	8171614755105453	CMakeFiles/FeathersFangs.dir/src/Game.cpp.obj	a2135459875666c
+2384	3416	8171614759437014	FeathersFangs.exe	6f3f108da5ac02bb
+18	50	0	C:/Users/danie/Desktop/FeathersFangs_Etap4_Sandbox/out/build/windows-x64-debug/CMakeFiles/cmake.verify_globs	748a5d0f5aab2d31
+52	1606	8173298058087082	CMakeFiles/FeathersFangs.dir/src/Game.cpp.obj	a2135459875666c
+1606	2295	8173298060538810	FeathersFangs.exe	6f3f108da5ac02bb
